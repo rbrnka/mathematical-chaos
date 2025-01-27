@@ -9,19 +9,20 @@ This repository contains a Python implementation to compute and illustrate the i
 
 ## The Functions
 The original logistic map function used is:
-
+```math
 p_{next} = p + rp - rp^2
+```
 
 which can be equivalently written in two forms:
-- **Function 1**:   p_next = p + rp(1 - p)
-- **Function 2**:   p_next = (1 + r)p - rp^2
+- **Function 1**: $\quad p_{next} = p + rp(1 - p)$
+- **Function 2**: $\quad p_{next} = (1 + r)p - rp^2$
   
 ## Features
 ### Result Table
 The notebook displays a comparison table of iterative results for both functions and their differences. Even with high precision, the results diverge quickly due to the chaotic nature of the system.
 
 ### Oscillation Diagram
-The bifurcation diagram is generated for **Function 1** to illustrate how the value of (p) evolves as (r) changes. This provides a visual representation of the transition to chaos.
+The bifurcation diagram is generated for **Function 1** to illustrate how the value of $p$ evolves as $r$ changes. This provides a visual representation of the transition to chaos.
 
 ### Lyapunov Exponent Plot
 The Lyapunov exponent measures the rate of divergence in the system:
@@ -29,12 +30,12 @@ The Lyapunov exponent measures the rate of divergence in the system:
 - Zero or negative values indicate stable or periodic behavior.
 
 ### Attractor Visualization
-An attractor is plotted for (p[n]) vs. (p[n+1]), showing the system's long-term behavior for a specific (r)-value.
+An attractor is plotted for $p_n$ vs. $p_{n+1}$, showing the system's long-term behavior for a specific $r$-value.
 
 ## Optimal Settings
 The default parameters are:
-- Initial value: (p = 0.01)
-- Constant (r = 3.0)
+- $p = 0.01$
+- $r = 3.0$ (constant)
 
 These settings provide a clear demonstration of chaos. The comparison table (especially the difference column) highlights how rapidly the system becomes chaotic.
 
