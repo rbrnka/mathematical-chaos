@@ -54,5 +54,5 @@ These settings provide a clear demonstration of chaos. The comparison table (esp
 ## How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/mathematical-chaos-visualization.git
+   git clone https://github.com/rbrnka/mathematical-chaos.git
 2. or copy-paste and run in Jupyter Lab
