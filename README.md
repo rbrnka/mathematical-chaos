@@ -57,3 +57,4 @@ These settings provide a clear demonstration of chaos. The comparison table (esp
    ```bash
    git clone https://github.com/rbrnka/mathematical-chaos.git
 2. or copy-paste and run in Jupyter Lab
+3. or [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rbrnka/mathematical-chaos/HEAD)
